@@ -1,4 +1,4 @@
-W7S_CustomOrbitGui = true
+cheezorbit = true
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local CoreGui = game:GetService("CoreGui")
@@ -7,8 +7,8 @@ local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 
 
-if CoreGui:FindFirstChild("W7S_CustomOrbitGui") then
-    CoreGui.W7S_CustomOrbitGui:Destroy()
+if CoreGui:FindFirstChild("cheezorbit") then
+    CoreGui.cheezorbit:Destroy()
 end
 
 
@@ -40,7 +40,7 @@ local trackedParts = {}
 
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "W7S_CustomOrbitGui"
+ScreenGui.Name = "cheezorbit"
 ScreenGui.Parent = CoreGui
 ScreenGui.ResetOnSpawn = false
 
